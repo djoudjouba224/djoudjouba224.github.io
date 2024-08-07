@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>contacts</title>
+    <style>
+        body {
+            background-color: #F5F5DC; 
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            background-color: #8B4513; 
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"] {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        select {
+            width: 220px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #8B4513; 
+            color: #FFF; 
+            border: none;
+            cursor: pointer;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #8B4513; 
+            padding: 5px;
+        }
+
+        h3 {
+            background-color: #8B4513; 
+            color: #FFF; 
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulaire d'inscription pour participer à la prochaine conférence</h1>
+    <label for="nom">Nom*</label>
+    <input type="text" id="nom">
+    <label for="prenom">Prénom*</label>
+    <input type="text" id="prenom"><br><br>
+    <label for="dateNaissance">Date de naissance</label>
+    <input type="text" id="dateNaissance">
+    <label for="tel">Tél</label>
+    <input type="text" id="tel"><br><br>
+    <label for="mail">Mail</label>
+    <input type="text" id="mail">
+    <label for="motDePasse">Mot de passe</label>
+    <input type="text" id="motDePasse">
+    <p>Choisissez votre pays de résidence</p>
+    <select>
+        <option value="France">France</option>
+        <option value="Allemagne">Allemagne</option>
+        <option value="Guinée">Guinée</option>
+        <option value="Chine">Chine</option>
+    </select>
+
+    <button type="submit">Valider</button>
+
+    <table>
+        <h3>Fusion des cellules</h3>
+        <tr>
+            <th>1</th>
+            <th>2</td> 
+            <th>3</td>
+            <th>4</td>
+            <th>5</td>
+            <th>6</td>
+            <th>7</td>
+        </tr>
+        <tr>
+            <td>cellule1</td>
+            <td>cellule2</td>
+            <td>cellule3</td>
+            <td>cellule4</td>
+            <td>cellule5</td> 
+            <td>cellule6</td>
+            <td>cellule7</td>
+        </tr>
+        <tr>
+            <td>cellule8</td>
+            <td>cellule9</td>
+            <td>cellule10</td>
+            <td>cellule10</td>
+            <td>cellule11</td>
+            <td>cellule12</td>
+            <td>cellule13</td>
+        </tr>
+    </table>
+</body>
+
+</html>
